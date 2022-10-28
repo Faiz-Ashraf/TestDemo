@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E024C8AB290BAAB8009964E6 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = E024C8A9290BAAB8009964E6 /* Slide.xib */; };
+		E024C8AC290BAAB8009964E6 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E024C8AA290BAAB8009964E6 /* Slide.swift */; };
+		E02CEE96290ABE2700A696EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02CEE95290ABE2700A696EE /* AppDelegate.swift */; };
+		E02CEE98290ABE2700A696EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02CEE97290ABE2700A696EE /* SceneDelegate.swift */; };
+		E02CEE9A290ABE2700A696EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02CEE99290ABE2700A696EE /* ViewController.swift */; };
+		E02CEE9D290ABE2700A696EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02CEE9B290ABE2700A696EE /* Main.storyboard */; };
+		E02CEE9F290ABE2800A696EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02CEE9E290ABE2800A696EE /* Assets.xcassets */; };
+		E02CEEA2290ABE2800A696EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02CEEA0290ABE2800A696EE /* LaunchScreen.storyboard */; };
+		E02CEEAD290ABE2800A696EE /* MindteckDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02CEEAC290ABE2800A696EE /* MindteckDemoTests.swift */; };
+		E02CEEB7290ABE2800A696EE /* MindteckDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02CEEB6290ABE2800A696EE /* MindteckDemoUITests.swift */; };
+		E02CEEB9290ABE2800A696EE /* MindteckDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02CEEB8290ABE2800A696EE /* MindteckDemoUITestsLaunchTests.swift */; };
+		E0A340A2290BB250007BD157 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A340A0290BB250007BD157 /* TableViewCell.swift */; };
+		E0A340A3290BB250007BD157 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A340A1290BB250007BD157 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E02CEEA9290ABE2800A696EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E02CEE8A290ABE2700A696EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02CEE91290ABE2700A696EE;
+			remoteInfo = MindteckDemo;
+		};
+		E02CEEB3290ABE2800A696EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E02CEE8A290ABE2700A696EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02CEE91290ABE2700A696EE;
+			remoteInfo = MindteckDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E024C8A9290BAAB8009964E6 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		E024C8AA290BAAB8009964E6 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		E02CEE92290ABE2700A696EE /* MindteckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindteckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02CEE95290ABE2700A696EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E02CEE97290ABE2700A696EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E02CEE99290ABE2700A696EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E02CEE9C290ABE2700A696EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E02CEE9E290ABE2800A696EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E02CEEA1290ABE2800A696EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E02CEEA3290ABE2800A696EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02CEEA8290ABE2800A696EE /* MindteckDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindteckDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02CEEAC290ABE2800A696EE /* MindteckDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckDemoTests.swift; sourceTree = "<group>"; };
+		E02CEEB2290ABE2800A696EE /* MindteckDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindteckDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02CEEB6290ABE2800A696EE /* MindteckDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckDemoUITests.swift; sourceTree = "<group>"; };
+		E02CEEB8290ABE2800A696EE /* MindteckDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0A340A0290BB250007BD157 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E0A340A1290BB250007BD157 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E02CEE8F290ABE2700A696EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02CEEA5290ABE2800A696EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02CEEAF290ABE2800A696EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E024C8A4290B94B2009964E6 /* SlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				E024C8AA290BAAB8009964E6 /* Slide.swift */,
+				E024C8A9290BAAB8009964E6 /* Slide.xib */,
+			);
+			path = SlideShow;
+			sourceTree = "<group>";
+		};
+		E02CEE89290ABE2700A696EE = {
+			isa = PBXGroup;
+			children = (
+				E02CEE94290ABE2700A696EE /* MindteckDemo */,
+				E02CEEAB290ABE2800A696EE /* MindteckDemoTests */,
+				E02CEEB5290ABE2800A696EE /* MindteckDemoUITests */,
+				E02CEE93290ABE2700A696EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E02CEE93290ABE2700A696EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02CEE92290ABE2700A696EE /* MindteckDemo.app */,
+				E02CEEA8290ABE2800A696EE /* MindteckDemoTests.xctest */,
+				E02CEEB2290ABE2800A696EE /* MindteckDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E02CEE94290ABE2700A696EE /* MindteckDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E0A3409F290BB232007BD157 /* TableViewCell */,
+				E024C8A4290B94B2009964E6 /* SlideShow */,
+				E02CEE95290ABE2700A696EE /* AppDelegate.swift */,
+				E02CEE97290ABE2700A696EE /* SceneDelegate.swift */,
+				E02CEE99290ABE2700A696EE /* ViewController.swift */,
+				E02CEE9B290ABE2700A696EE /* Main.storyboard */,
+				E02CEE9E290ABE2800A696EE /* Assets.xcassets */,
+				E02CEEA0290ABE2800A696EE /* LaunchScreen.storyboard */,
+				E02CEEA3290ABE2800A696EE /* Info.plist */,
+			);
+			path = MindteckDemo;
+			sourceTree = "<group>";
+		};
+		E02CEEAB290ABE2800A696EE /* MindteckDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E02CEEAC290ABE2800A696EE /* MindteckDemoTests.swift */,
+			);
+			path = MindteckDemoTests;
+			sourceTree = "<group>";
+		};
+		E02CEEB5290ABE2800A696EE /* MindteckDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E02CEEB6290ABE2800A696EE /* MindteckDemoUITests.swift */,
+				E02CEEB8290ABE2800A696EE /* MindteckDemoUITestsLaunchTests.swift */,
+			);
+			path = MindteckDemoUITests;
+			sourceTree = "<group>";
+		};
+		E0A3409F290BB232007BD157 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E0A340A0290BB250007BD157 /* TableViewCell.swift */,
+				E0A340A1290BB250007BD157 /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E02CEE91290ABE2700A696EE /* MindteckDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02CEEBC290ABE2800A696EE /* Build configuration list for PBXNativeTarget "MindteckDemo" */;
+			buildPhases = (
+				E02CEE8E290ABE2700A696EE /* Sources */,
+				E02CEE8F290ABE2700A696EE /* Frameworks */,
+				E02CEE90290ABE2700A696EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindteckDemo;
+			productName = MindteckDemo;
+			productReference = E02CEE92290ABE2700A696EE /* MindteckDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E02CEEA7290ABE2800A696EE /* MindteckDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02CEEBF290ABE2800A696EE /* Build configuration list for PBXNativeTarget "MindteckDemoTests" */;
+			buildPhases = (
+				E02CEEA4290ABE2800A696EE /* Sources */,
+				E02CEEA5290ABE2800A696EE /* Frameworks */,
+				E02CEEA6290ABE2800A696EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02CEEAA290ABE2800A696EE /* PBXTargetDependency */,
+			);
+			name = MindteckDemoTests;
+			productName = MindteckDemoTests;
+			productReference = E02CEEA8290ABE2800A696EE /* MindteckDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E02CEEB1290ABE2800A696EE /* MindteckDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02CEEC2290ABE2800A696EE /* Build configuration list for PBXNativeTarget "MindteckDemoUITests" */;
+			buildPhases = (
+				E02CEEAE290ABE2800A696EE /* Sources */,
+				E02CEEAF290ABE2800A696EE /* Frameworks */,
+				E02CEEB0290ABE2800A696EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02CEEB4290ABE2800A696EE /* PBXTargetDependency */,
+			);
+			name = MindteckDemoUITests;
+			productName = MindteckDemoUITests;
+			productReference = E02CEEB2290ABE2800A696EE /* MindteckDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E02CEE8A290ABE2700A696EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E02CEE91290ABE2700A696EE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					E02CEEA7290ABE2800A696EE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E02CEE91290ABE2700A696EE;
+					};
+					E02CEEB1290ABE2800A696EE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E02CEE91290ABE2700A696EE;
+					};
+				};
+			};
+			buildConfigurationList = E02CEE8D290ABE2700A696EE /* Build configuration list for PBXProject "MindteckDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E02CEE89290ABE2700A696EE;
+			productRefGroup = E02CEE93290ABE2700A696EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E02CEE91290ABE2700A696EE /* MindteckDemo */,
+				E02CEEA7290ABE2800A696EE /* MindteckDemoTests */,
+				E02CEEB1290ABE2800A696EE /* MindteckDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02CEE90290ABE2700A696EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02CEEA2290ABE2800A696EE /* LaunchScreen.storyboard in Resources */,
+				E0A340A3290BB250007BD157 /* TableViewCell.xib in Resources */,
+				E02CEE9F290ABE2800A696EE /* Assets.xcassets in Resources */,
+				E02CEE9D290ABE2700A696EE /* Main.storyboard in Resources */,
+				E024C8AB290BAAB8009964E6 /* Slide.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02CEEA6290ABE2800A696EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02CEEB0290ABE2800A696EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02CEE8E290ABE2700A696EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A340A2290BB250007BD157 /* TableViewCell.swift in Sources */,
+				E02CEE9A290ABE2700A696EE /* ViewController.swift in Sources */,
+				E02CEE96290ABE2700A696EE /* AppDelegate.swift in Sources */,
+				E02CEE98290ABE2700A696EE /* SceneDelegate.swift in Sources */,
+				E024C8AC290BAAB8009964E6 /* Slide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02CEEA4290ABE2800A696EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02CEEAD290ABE2800A696EE /* MindteckDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02CEEAE290ABE2800A696EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02CEEB9290ABE2800A696EE /* MindteckDemoUITestsLaunchTests.swift in Sources */,
+				E02CEEB7290ABE2800A696EE /* MindteckDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E02CEEAA290ABE2800A696EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02CEE91290ABE2700A696EE /* MindteckDemo */;
+			targetProxy = E02CEEA9290ABE2800A696EE /* PBXContainerItemProxy */;
+		};
+		E02CEEB4290ABE2800A696EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02CEE91290ABE2700A696EE /* MindteckDemo */;
+			targetProxy = E02CEEB3290ABE2800A696EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E02CEE9B290ABE2700A696EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02CEE9C290ABE2700A696EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E02CEEA0290ABE2800A696EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02CEEA1290ABE2800A696EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E02CEEBA290ABE2800A696EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E02CEEBB290ABE2800A696EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E02CEEBD290ABE2800A696EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L97M88ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindteckDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magenta.ev.MindteckDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E02CEEBE290ABE2800A696EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L97M88ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindteckDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magenta.ev.MindteckDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E02CEEC0290ABE2800A696EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L97M88ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magenta.ev.MindteckDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindteckDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindteckDemo";
+			};
+			name = Debug;
+		};
+		E02CEEC1290ABE2800A696EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L97M88ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magenta.ev.MindteckDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindteckDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindteckDemo";
+			};
+			name = Release;
+		};
+		E02CEEC3290ABE2800A696EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L97M88ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magenta.ev.MindteckDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindteckDemo;
+			};
+			name = Debug;
+		};
+		E02CEEC4290ABE2800A696EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25L97M88ZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magenta.ev.MindteckDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindteckDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E02CEE8D290ABE2700A696EE /* Build configuration list for PBXProject "MindteckDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02CEEBA290ABE2800A696EE /* Debug */,
+				E02CEEBB290ABE2800A696EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02CEEBC290ABE2800A696EE /* Build configuration list for PBXNativeTarget "MindteckDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02CEEBD290ABE2800A696EE /* Debug */,
+				E02CEEBE290ABE2800A696EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02CEEBF290ABE2800A696EE /* Build configuration list for PBXNativeTarget "MindteckDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02CEEC0290ABE2800A696EE /* Debug */,
+				E02CEEC1290ABE2800A696EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02CEEC2290ABE2800A696EE /* Build configuration list for PBXNativeTarget "MindteckDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02CEEC3290ABE2800A696EE /* Debug */,
+				E02CEEC4290ABE2800A696EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E02CEE8A290ABE2700A696EE /* Project object */;
+}
